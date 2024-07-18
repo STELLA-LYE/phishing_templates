@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>New Device Signed In</title>
+	<style type="text/css">body {
+		            font-family: Arial, sans-serif;
+		            margin: 0;
+		            padding: 0;
+		            background-color: #f9f9f9;
+		        }
+		        .container {
+		            width: 100%;
+		            max-width: 600px;
+		            margin: 0 auto;
+		            background-color: #ffffff;
+		            border: 1px solid #e0e0e0;
+		            padding: 20px;
+		        }
+		        .header {
+		            text-align: center;
+		            margin-bottom: 20px;
+		        }
+		        .header img {
+		            width: 100px;
+		        }
+		        .content {
+		            text-align: center;
+		        }
+		        .content h1 {
+		            font-size: 24px;
+		            margin-bottom: 10px;
+		        }
+		        .content p {
+		            font-size: 16px;
+		            color: #333333;
+		            margin-bottom: 20px;
+		        }
+		        .button {
+		            display: inline-block;
+		            padding: 10px 20px;
+		            font-size: 16px;
+		            color: #ffffff;
+		            background-color: #4285f4;
+		            text-decoration: none;
+		            border-radius: 5px;
+		        }
+		        .footer {
+		            font-size: 12px;
+		            color: #777777;
+		            text-align: center;
+		            margin-top: 20px;
+		        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div class="header"><img alt="Google Logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" /></div>
+
+<div class="content">
+<h1>New device signed in to</h1>
+
+<p>%LASTNAME%</p>
+
+<p>%EMAIL%</p>
+
+<p>Your Google Account was just<strong> signed in </strong>to from a new device. You&#39;re getting this email to make sure<strong> it was you</strong>.</p>
+
+<table border="0" cellpadding="0" cellspacing="0" class="mcnButtonBlock" style="min-width:100%;" width="100%">
+	<tbody class="mcnButtonBlockOuter">
+		<tr>
+			<td align="left" class="mcnButtonBlockInner" style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top">
+			<table border="0" cellpadding="0" cellspacing="0" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 0px;background-color: #4285f4;" width="100%">
+				<tbody>
+					<tr>
+						<td align="center" class="mcnButtonContent" style="font-family: Arial; font-size: 15px; padding: 12px;" valign="middle"><a class="mcnButton " href="" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;" target="_blank" title="">Check Activity</a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="footer">
+<p><span style="font-size:11px;">You received this email to let you know about important changes to your Google Account and services.</span></p>
+
+<p><span style="font-size:11px;">&copy; 2024 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA</span></p>
+</div>
+</div>
+</div>
+</body>
+</html>
