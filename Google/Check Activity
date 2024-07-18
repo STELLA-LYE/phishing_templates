@@ -24,7 +24,7 @@
         }
         .content h1 {
             font-size: 24px;
-            color: blue;
+            color: black;
         }
         .content p {
             font-size: 16px;
@@ -58,7 +58,26 @@
             <h1>Sign-in attempt was blocked</h1>
             <p><strong>%LASTNAME%</strong></p>
             <p>Someone just used your password to try to sign in to your account from a non-Google app. Google blocked them, but you should check what happened. Review your account activity to make sure no one else has access.</p>
-            <a href="#" class="button">Check activity</a>
+            
+            <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonBlock" style="min-width:100%;" width="100%">
+          	<tbody class="mcnButtonBlockOuter">
+          		<tr>
+          			<td align="left" class="mcnButtonBlockInner" style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top">
+          			<table border="0" cellpadding="0" cellspacing="0" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 0px;background-color: blue;" width="100%">
+          				<tbody>
+          					<tr>
+          						<td align="center" class="mcnButtonContent" style="font-family: Arial; font-size: 15px; padding: 12px;" valign="middle"><a class="mcnButton " href="" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;" target="_blank" title="">
+          						  Check Activity</a></td>
+          					</tr>
+          				</tbody>
+          			</table>
+          			</td>
+          		</tr>
+          	</tbody>
+          </table>
+
+            
+            
         </div>
         <div class="footer">
             <p>You received this email to let you know about important changes to your Google Account and services.</p>
