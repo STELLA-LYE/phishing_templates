@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trick or Treat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2f2f2f;
+            background-image: url('https://static.vecteezy.com/system/resources/previews/002/303/221/original/happy-halloween-s-cute-background-pattern-free-vector.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .container {
+            width: 600px;
+            margin: 0 auto;
+            background-color: rgba(110, 37, 148, 0.9);
+            padding: 20px;
+            text-align: center;
+            color: #ffffff;
+            border-radius: 10px;
+            position: relative;
+        }
+        .container h1 {
+            font-size: 36px;
+            margin: 20px 0;
+        }
+        .container p {
+            font-size: 16px;
+            margin: 20px 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #ff6f00;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .pumpkin {
+            margin: 20px 0;
+            width: 560px;
+        }
+        .spider-web {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+        }
+        .spider-web.top-left {
+            top: 0;
+            left: 0;
+        }
+        .spider-web.top-right {
+            top: 0;
+            right: 0;
+        }
+        .footer {
+            font-size: 12px;
+            color: #dddddd;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://th.bing.com/th/id/R.239068f80285c9d55b474da3bf3bd132?rik=dJ6mkt2yQKSsmg&riu=http%3a%2f%2fsweetclipart.com%2fmultisite%2fsweetclipart%2ffiles%2fhalloween_ghosts_duo_2.png&ehk=IkVE9epg82dkfBbFA5IH2vSCdv9tdO80TptNintkzxU%3d&risl=&pid=ImgRaw&r=0" alt="Spider Web" class="spider-web top-left">
+        <img src="https://th.bing.com/th/id/R.239068f80285c9d55b474da3bf3bd132?rik=dJ6mkt2yQKSsmg&riu=http%3a%2f%2fsweetclipart.com%2fmultisite%2fsweetclipart%2ffiles%2fhalloween_ghosts_duo_2.png&ehk=IkVE9epg82dkfBbFA5IH2vSCdv9tdO80TptNintkzxU%3d&risl=&pid=ImgRaw&r=0" alt="Spider Web" class="spider-web top-right">
+        <h1>Trick or Treat</h1>
+        <img src="https://www.kttn.com/wp-content/uploads/2017/10/Halloween-Dance.jpg" alt="Pumpkin" class="pumpkin">
+        <p>Don't miss out on an exciting Halloween event! Join us for a spooky night filled with fun, free gifts, and delicious treats. Get a chance to win a free entry to our Halloween party where the scares are real and the treats are even better!</p>
+        <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonBlock" style="min-width:100%;" width="100%">
+        <tbody class="mcnButtonBlockOuter">
+          <tr>
+            <td align="left" class="mcnButtonBlockInner" style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 0px;background-color: #ff6f00;" width="100%">
+              <tbody>
+                <tr>
+                  <td align="center" class="mcnButtonContent" style="font-family: Arial; font-size: 15px; padding: 12px;" valign="middle"><a class="mcnButton " href="" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;" target="_blank" title="">
+                    FREE ENTRY</a></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Really Great Company. All rights reserved.</p>
+    </div>
+</body>
+</html>
