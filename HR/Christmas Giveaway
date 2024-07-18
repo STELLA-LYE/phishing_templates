@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costco Gift Card Promotion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFFFF;
+        }
+        .container {
+            width: 600px;
+            margin: 0 auto;
+            background-color: #FFA9A0;
+            padding: 20px;
+            border: 1px solid #dddddd;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .highlight {
+            color: yellow; 
+            font-weight: bold;
+        }
+        .header {
+            background-color: #d32f2f;
+            color: #ffffff;
+            padding: 10px 0;
+            border-radius: 10px 10px 0 0;
+        }
+        .header img {
+            width: 150px;
+        }
+        .main-image {
+            width: 100%;
+            max-width: 560px;
+            height: 560px;
+            margin: 20px 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #d32f2f;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .footer {
+            font-size: 12px;
+            color: #666666;
+            margin-top: 20px;
+        }
+        .holly {
+            margin-top: 20px;
+        }
+        .holly img {
+            width: 50px;
+        }
+        .title {
+            font-family: Pacifico;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <p>Congrats! You've been selected to participate in our monthly <span class="highlight">$1000 Costco Gift Card Promotion!</span></p>
+        </div>
+        <div class="holly">
+            <img src="https://static.vecteezy.com/system/resources/previews/011/016/451/non_2x/christmas-decoration-with-balls-and-bell-free-png.png" alt="Holly">
+            <img src="https://static.vecteezy.com/system/resources/previews/011/016/451/non_2x/christmas-decoration-with-balls-and-bell-free-png.png" alt="Holly">
+            <img src="https://static.vecteezy.com/system/resources/previews/011/016/451/non_2x/christmas-decoration-with-balls-and-bell-free-png.png" alt="Holly">
+        </div>
+        <h1 class="title">Happy Holidays!</h1>
+        <h2>$1000 Costco Gift Card Is Yours!</h2>
+        <p>Take a 60 Second Survey and Redeem Your Holiday Reward Now!</p>
+        
+        <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonBlock" style="min-width:100%;" width="100%">
+        <tbody class="mcnButtonBlockOuter">
+          <tr>
+            <td align="left" class="mcnButtonBlockInner" style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 0px;background-color: #d32f2f;" width="100%">
+              <tbody>
+                <tr>
+                  <td align="center" class="mcnButtonContent" style="font-family: Arial; font-size: 15px; padding: 12px;" valign="middle"><a class="mcnButton " href="" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;" target="_blank" title="">
+                    Click here to get started</a></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+        <img src="https://pics.craiyon.com/2023-11-30/lGFpgHNCRRu695rBstStpQ.webp" alt="Happy Holidays" class="main-image">
+        <p>Take this 60 second survey about Costco and we'll offer you exclusive rewards over $100</p>
+        <div class="footer">
+            <p>You received this email to let you know about important changes to your Google Account and services.</p>
+            <p>&copy; 2024 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA</p>
+        </div>
+    </div>
+</body>
+</html>
