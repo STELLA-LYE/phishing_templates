@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>延长智谱AI - ChatGLM会话时间</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 150px;
+        }
+        .content {
+            text-align: center;
+        }
+        .content h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .content p {
+            font-size: 16px;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: blue;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .footer {
+            font-size: 12px;
+            color: #777777;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://th.bing.com/th/id/R.d3897546e4857476b30b884987b8e695?rik=543zb1vWjJIkpw&riu=http%3a%2f%2fi2.hdslb.com%2fbfs%2farchive%2fd1df889d21c3da487c21930e10aea8a72a67b3c5.jpg&ehk=DnGw5EHQBiTL8%2bFR%2fa%2bqr3zdDv%2f5WJ6p3Rgc%2bCHz%2b9U%3d&risl=&pid=ImgRaw&r=0" alt="智谱AI - ChatGLM Logo">
+        </div>
+        <div class="content">
+            <h1>延长智谱AI - ChatGLM会话时间</h1>
+            <p>您好, %LASTNAME%，</p>
+            <p>我们注意到您的会话即将到期。为了继续享受不间断访问智谱AI - ChatGLM的服务，请点击下方按钮延长会话时间。</p>
+
+            <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonBlock" style="min-width:100%;" width="100%">
+              <tbody class="mcnButtonBlockOuter">
+                <tr>
+                  <td align="left" class="mcnButtonBlockInner" style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top">
+                  <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 0px;background-color: blue;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td align="center" class="mcnButtonContent" style="font-family: Arial; font-size: 15px; padding: 12px;" valign="middle"><a class="mcnButton " href="" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;" target="_blank" title="">
+                          延长会话时间</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+        </div>
+        <div class="footer">
+            <p>您收到此邮件是因为您在智谱AI - ChatGLM拥有账户。</p>
+            <p>&copy; 2024 智谱AI - ChatGLM, 您的公司地址, 城市, 省份, 邮政编码</p>
+        </div>
+    </div>
+</body>
+</html>
