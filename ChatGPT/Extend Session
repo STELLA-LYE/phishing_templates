@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extend Your ChatGPT Session</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 150px;
+        }
+        .content {
+            text-align: center;
+        }
+        .content h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .content p {
+            font-size: 16px;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color:#00A67E;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .footer {
+            font-size: 12px;
+            color: #777777;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://freelogopng.com/images/all_img/1681038628chatgpt-icon-logo.png" alt="ChatGPT Logo">
+        </div>
+        <div class="content">
+            <h1>Extend Your ChatGPT Session</h1>
+            <p>Hello %LASTNAME%,</p>
+            <p>We noticed that your session is about to expire. To continue enjoying uninterrupted access to ChatGPT, please extend your session by clicking the button below.</p>
+            <a href="https://yourwebsite.com/extend-session" class="button">Extend Session</a>
+        </div>
+        <div class="footer">
+            <p>You received this email because you have an account with ChatGPT.</p>
+            <p>&copy; 2024 ChatGPT, Your Company Address, City, State, ZIP Code</p>
+        </div>
+    </div>
+</body>
+</html>
+
