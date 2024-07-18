@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WeChat</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header img {
+            width: 100px;
+            height: 100px;
+            margin-right: 10px;
+        }
+        .content {
+            text-align: center;
+            color: #666666;
+        }
+        .content h1 {
+            font-size: 24px;
+            color: #333333;
+        }
+        .content p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px 0;
+            background-color: #07C160;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #aaaaaa;
+            padding: 20px 0;
+            border-top: 1px solid #dddddd;
+        }
+        .footer a {
+            color: #aaaaaa;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            <img src="https://logodownload.org/wp-content/uploads/2019/08/wechat-logo-0.png" alt="WeChat">
+            <h1>WeChat</h1>
+        </div>
+        <div class="content">
+            <h1>账户验证</h1>
+            <p>你好，%LASTNAME%，</p>
+            <p>我们遗憾地通知您，您的账户因违反版权法而将被暂停。您的账户将在24小时内被删除。如果您认为我们犯了错误，请验证以确保您的账户安全。</p>
+            <a href="#" class="button">验证账户</a>
+        </div>
+        <div class="footer">
+            <p>© 微信. 腾讯公司，腾讯大厦，深圳市南山区高新科技园，邮政编码：518057。</p>
+            <p>此消息发送至 %LASTNAME%。如非您本人账户？<a href="#">从该账户中删除您的邮箱。</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
