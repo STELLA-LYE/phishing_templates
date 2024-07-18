@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Google Sign-In</title>
+    <style type="text/css">
+        /*-- Resets--*/
+        html {
+            margin: 0;
+            padding: 0;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+        body {
+            line-height: 1;
+            margin: 0;
+            padding: 0;
+        }
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        ol, ul, li {
+            font-size: 100%;
+            font: inherit;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:focus {
+            outline: thin dotted;
+        }
+        a:active, a:hover {
+            outline: 0;
+        }
+        b, strong {
+            font-weight: bold;
+        }
+        dfn, em {
+            font-style: italic;
+        }
+        mark {
+            background: #ff0;
+            color: #000;
+        }
+        fieldset, form, label {
+            border: 0 none;
+            font-family: inherit;
+            font-size: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        button, input, select, textarea {
+            font-family: inherit;
+            font-size: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        /*-- Theme--*/
+        html {
+            background-image: url("https://www.gstatic.com/webp/gallery/1.jpg");
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat, no-repeat;
+            background-position: center center, center center;
+            background-size: cover, cover;
+        }
+        body {
+            font: 20px "Roboto", "Arial", sans-serif;
+        }
+        .clear {
+            clear: both;
+        }
+        .right {
+            float: right;
+        }
+        .left {
+            float: left;
+        }
+        #header {}
+        #container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+        }
+        #content {
+            width: 450px;
+            padding: 44px;
+            background-color: #fff;
+            -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.55);
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.55);
+            border: 1px solid rgba(0, 0, 0, 0.4);
+        }
+        #footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            color: #CCCCCC;
+            text-align: right;
+            font-size: 12px;
+            padding-right: 10px;
+            background-color: rgba(0, 0, 0, 0.50);
+        }
+        input[type=text], input[type=password] {
+            background-color: #FFFFFF;
+            border-left: none;
+            border-right: none;
+            border-bottom: thin solid #000000;
+            border-top: none;
+            color: #000000;
+            padding-top: 10px;
+            padding-right: 10px;
+            text-decoration: none;
+            margin-top: 15px;
+            margin-right: 2px;
+            margin-left: 2px;
+            width: 100%;
+            font: 15px "Roboto", "Arial", sans-serif;
+            box-sizing: border-box;
+            padding-bottom: 6px;
+        }
+        input[type=text]:focus, input[type=password]:focus {
+            outline: none;
+        }
+        input[type=submit], button {
+            background-color: #4285F4;
+            border: none;
+            color: #FFFFFF;
+            padding: 10px 15px;
+            text-decoration: none;
+            cursor: pointer;
+            width: 100px;
+            font: 16px "Roboto", "Arial";
+        }
+        .link {
+            text-decoration: none;
+            color: #4285F4;
+            font-size: 11px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="content">
+            <div style="margin-bottom: 15px;"><img alt="Google Logo" src="https://logos-world.net/wp-content/uploads/2020/09/Google-Logo.png" width="110" /></div>
+
+            <form action="" id="loginForm">
+                <div id="usernameForm">
+                    <label for="username" style="margin-top: 12px; font-size: 23px; font-family: 'Roboto','Arial', sans-serif; color: rgba(59,59,59,1.00);">Sign in</label>
+                    <input autofocus="" id="username" onkeypress="return event.keyCode!= 13;" required="" type="text" />
+                    <div style="text-align: right; margin-top: 20px;"><button id="nextBtn" type="button">Next</button></div>
+                </div>
+
+                <div id="passwordForm" style="display: none;">
+                    <div style="font-size: 14px; margin-top: 15px;color:#878787; text-align: right;">
+                        <p id="displayUsername">&nbsp;</p>
+                    </div>
+
+                    <div>Enter Password</div>
+                    <input id="password" placeholder="Password" type="password" />
+                    <div style="text-align: right; margin-top: 20px;"><button id="submitButton" style="width: 100%;" type="submit">Sign in</button></div>
+
+                    <div style="margin-top: 20px;">
+                        <p class="link">Forgot my password</p>
+
+                        <p class="link">Sign in with a different Google account</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="footer">Privacy Statement &copy; Google</div>
+    <script>
+        const usernameForm = document.getElementById("usernameForm");
+        const passwordForm = document.getElementById("passwordForm");
+        const nextBtn = document.getElementById("nextBtn");
+        const displayUsername = document.getElementById("displayUsername");
+        const loginForm = document.getElementById("loginForm");
+
+        nextBtn.addEventListener("click", () => {
+            const username = document.getElementById("username").value;
+            if (username) {
+                usernameForm.style.display = "none";
+                passwordForm.style.display = "block";
+                displayUsername.textContent = `${username}`;
+            } else {
+                alert("Please enter a username.");
+            }
+        });
+
+        loginForm.addEventListener("submit", (event) => {
+            event.preventDefault();
+            // Prevent the form from submitting normally
+            // Here you can perform further validation or submit the form to a server
+            // alert("Form submitted!");
+        });
+    </script>
+    <script src="//tslp.s3.amazonaws.com/assets/js/training.js"></script>
+</body>
+</html>
