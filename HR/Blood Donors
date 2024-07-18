@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Blood Donor Day</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            padding: 20px;
+        }
+        .header {
+            background-color: #ff5757;
+            padding: 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+        .header img {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .content h2 {
+            font-size: 22px;
+            color: #ff5757;
+        }
+        .content p {
+            font-size: 16px;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #ff5757;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .footer {
+            font-size: 12px;
+            color: #777777;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .footer a {
+            color: #ff5757;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://pngfreepic.com/wp-content/uploads/2021/06/world-blood-donor-day-png-24.png" alt="Logo">
+        </div>
+        <div class="content">
+            <h2>Thank You, Blood Donors!</h2>
+            <p>Dear %LASTNAME%,</p>
+            <p>On this  <strong>World Blood Donor Day </strong>, we extend our heartfelt thanks to you for your life-saving donations. Your generosity helps save countless lives and brings hope to those in need.</p>
+            <p>To celebrate this day, we encourage you to <strong>donate blood and continue making a difference.</strong> Your donation is a gift of life!</p>
+
+            <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonBlock" style="min-width:100%;" width="100%">
+            <tbody class="mcnButtonBlockOuter">
+              <tr>
+                <td align="left" class="mcnButtonBlockInner" style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top">
+                <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 0px;background-color: #ff5757;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" class="mcnButtonContent" style="font-family: Arial; font-size: 15px; padding: 12px;" valign="middle"><a class="mcnButton " href="" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;" target="_blank" title="">
+                        Find a Donation Center</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+            
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 World Blood Donors, All rights reserved.</p>
+            <p>1234 Donation St, Save Lives City, Health Country</p>
+            <p><a href="https://example.com/unsubscribe">Unsubscribe</a> | <a href="https://example.com/privacy">Privacy Policy</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
