@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <style type="text/css">body {
+            margin: 20px;
+            font-family: sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            border-width: medium;
+        }
+        h1, h2, h3, h4, h5, h6, p {
+            margin: 0;
+        }
+        .container {
+            width: 600px;
+        }
+        .header > td {
+            padding: 24px 0;
+        }
+        .text {
+            font-color: #333;
+            font-size: 16px;
+        }
+  </style>
+</head>
+<body><!--[if mso]>
+<style type="text/css">
+    body, table, td {
+        font-family: sans-serif !important;
+    }
+</style>
+<![endif]-->
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="600">
+  <tbody>
+    <tr>
+      <td style="font-weight: normal; border: 2px solid #D0D0D0; border-radius: 2px;">
+      <table cellpadding="0" cellspacing="0" class="container">
+        <tbody>
+          <tr class="header">
+            <td align="center"><img alt="Microsoft Teams Logo" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" style="width: 75px; height: 75px;" /></td>
+          </tr>
+          <tr>
+            <td style="color: #626262; padding: 20px;"><span style="color:#000000;">Dear %EMAIL%,</span></td>
+          </tr>
+          <tr>
+            <td style="color: #626262; padding: 20px;"><span style="color:#000000;">Microsoft Teams has added extra security support for all accounts.<strong> Two-factor authentication</strong> will now be available for Microsoft Teams mobile apps and web platform.</span></td>
+          </tr>
+          <tr>
+            <td style="color: #626262; padding: 20px;"><span style="color:#000000;"><strong>Secure your account now</strong> by setting up two-factor authentication <strong>below</strong></span>.</td>
+          </tr>
+          <tr>
+            <td align="center" style="padding: 20px;" valign="middle">
+            <table border="0" cellpadding="0" cellspacing="0" width="400">
+              <tbody>
+                <tr>
+                  <td bgcolor="#6264A7" style="padding: 12px 18px; border-radius: 4px; text-align: center;"><a href="" target="_blank"> <span style="font-size:16px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; color:#ffffff; text-decoration:none; display:inline-block; position:center">Set up two-factor authentication</span> </a></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="color: #626262; padding: 20px;">Thank you, Microsoft Teams Security Team</td>
+          </tr>
+          <tr>
+            <td style="font-size: 10px; color: #626262; padding: 20px; background-color: #DFDFDF; border-top: 2px solid #D0D0D0;">This email was sent from an unmonitored mailbox. Update your email preferences in Teams.<br />
+            <br />
+            &copy; Microsoft Corporation, One Microsoft Way, Redmond WA 98052-7329<br />
+            <br />
+            <img alt="Microsoft Logo" height="37" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" width="75" /></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</center>
+</body>
+</html>
