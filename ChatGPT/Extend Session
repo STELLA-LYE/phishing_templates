@@ -64,7 +64,24 @@
             <h1>Extend Your ChatGPT Session</h1>
             <p>Hello %LASTNAME%,</p>
             <p>We noticed that your session is about to expire. To continue enjoying uninterrupted access to ChatGPT, please extend your session by clicking the button below.</p>
-            <a href="https://yourwebsite.com/extend-session" class="button">Extend Session</a>
+            
+            <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonBlock" style="min-width:100%;" width="100%">
+          	<tbody class="mcnButtonBlockOuter">
+          		<tr>
+          			<td align="left" class="mcnButtonBlockInner" style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top">
+          			<table border="0" cellpadding="0" cellspacing="0" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 0px;background-color: #00A67E;" width="100%">
+          				<tbody>
+          					<tr>
+          						<td align="center" class="mcnButtonContent" style="font-family: Arial; font-size: 15px; padding: 12px;" valign="middle"><a class="mcnButton " href="" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;" target="_blank" title="">
+          						  Extend Session</a></td>
+          					</tr>
+          				</tbody>
+          			</table>
+          			</td>
+          		</tr>
+          	</tbody>
+          </table>
+            
         </div>
         <div class="footer">
             <p>You received this email because you have an account with ChatGPT.</p>
@@ -73,4 +90,8 @@
     </div>
 </body>
 </html>
+
+
+
+
 
