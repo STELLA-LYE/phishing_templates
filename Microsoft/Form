@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Feedback Survey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #000000;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            background-color: #f3f3f3;
+        }
+        .header {
+            background-color: #0a7e9b;
+            padding: 20px;
+            color: #ffffff;
+            text-align: center;
+        }
+        .header img {
+            max-height: 50px;
+            vertical-align: middle;
+        }
+        .content {
+            padding: 20px;
+            background-color: #ffffff;
+        }
+        .content h1 {
+            color: black;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .button-container a {
+            color: #ffffff;
+            text-decoration: none;
+            background-color: #0a7e9b;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #000000;
+            background-color: #f3f3f3;
+        }
+        .footer a {
+            color: #0000EE;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://www.pngmart.com/files/4/Microsoft-Logo-Transparent-Background.png" alt="Microsoft Logo">
+        </div>
+        <div class="content">
+            <h1>You have received a new secured document {34212986823} to review today!</h1>
+            <p>This message was sent to you to protect sensitive information.</p>
+            <div class="button-container">
+                <a href="">Review document</a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Create my own form</p>
+            <p>Powered by Microsoft Forms | <a href="https://privacy.microsoft.com/en-us/privacystatement">Privacy and cookies</a> | <a href="https://www.microsoft.com/en-us/servicesagreement">Terms of use</a></p>
+        </div>
+    </div>
+</body>
+</html>
